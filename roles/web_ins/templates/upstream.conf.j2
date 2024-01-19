@@ -1,0 +1,7 @@
+upstream
+wp {
+ server {{ ip_bs1 }}:80 max_fails=0 fail_timeout=0s;
+ server {{ ip_bs2 }}:80 max_fails=0 fail_timeout=0s;
+
+}
+

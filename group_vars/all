@@ -1,0 +1,12 @@
+wp_db_name: wordpress 
+wp_db_user: wordpress
+wp_db_password: XvDcVTcRHrsX
+wp_db_host: 
+server_hostname: www.example.com
+
+ip_bs1: 
+ip_bs2: 
+
+auto_up_disable: false
+core_update_level: true
+

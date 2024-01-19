@@ -1,0 +1,10 @@
+[web]
+web1 ansible_host=
+
+[bs]
+bs1 ansible_host=
+bs2 ansible_host=
+
+[db]
+db1 ansible_host=
+
