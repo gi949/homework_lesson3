@@ -1,7 +1,9 @@
 # homework_lesson3
 Провести настройку аутентификации доступа к yandex cloud-id, введя в консоли:
 export YC_TOKEN=$(yc iam create-token)
+
 export YC_CLOUD_ID=$(yc config get cloud-id)
+
 export YC_FOLDER_ID=$(yc config get folder-id)
 
 Ввести в консоли команды:
@@ -37,5 +39,11 @@ ansible-playbook --syntax-check main.yaml
 Роль bs_ins выполняет установку и рзвертывание php-fpm, nginx и wordpress
 Роль web_ins выполняет настройку балансировщика с nginx
 
+Для проверки в /etc/hosts своей ВМ прописываем:
+
+
 Запускаем playbook на выполнение
 ansible-playbook main.yaml
+external_ip_address_vm_web1 www.example.com
+
+В браузере проверяем доступность wordpress введя www.example.com
